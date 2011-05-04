@@ -11,9 +11,13 @@
   "dependencies": {
     "cradle": ">= 0.5.2",
     "journey": ">= 0.4.0-pre",
-    "http-console": ">= 0.6.0",
     "optimist": ">= 0.1.5",
     "winston": ">= 0.2.1"
+  },
+  "devDependencies": {
+    "http-console": ">= 0.6.0",
+    "vows": ">= 0.5.8",
+    "request": ">= 1.9.5"
   },
   "bin": { "nodejs-intro": "./bin/server" },
   "main": "./lib/03authentication/pinpoint",
